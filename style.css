@@ -117,6 +117,12 @@ hr{
     color: var(--primary-color);
 }
 
+@media only screen and (max-width: 600px){
+    .hero .hero-img{
+        width: 10rem;
+    }
+}
+
 /* sections  */
 .section{
     padding: 2rem;
