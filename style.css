@@ -28,6 +28,15 @@ hr{
     padding: 0.5rem;
 }
 
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.project-link{
+    margin-right: 1rem;
+}
+
 /* container */
 .container{
     padding: 0 1rem;
@@ -128,7 +137,6 @@ hr{
 }
 .footer .link{
     color: white;
-    border-bottom: 2px groove white;
 }
 .footer ul{
     padding-inline-start: 0;
@@ -136,4 +144,7 @@ hr{
 .footer-header{
     font-weight: bold;
     font-size: large;
+}
+.footer-img{
+    width: 2rem;
 }
