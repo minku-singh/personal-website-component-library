@@ -4,111 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Component Library</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Minku Singh</title>
 </head>
 <body>
-    <h1>Minku's Component Library</h1>
-    <p>I am attending neoG.camp and learning to make a library which I can use in my projects for styling.</p>
-
-    <hr />
-
-    <h2>@typography</h2>
-    <h1>Biggest Heading</h1>
-    <h2>Second Biggest heading</h2>
-    <p>Paragraph</p>
-    <p>This para will have a <strong>bold</strong> text</p>
-    <small>smaller text</small>
-
-    <hr />
-
-    <h2>@container</h2>
-    <h2>fluid container</h2>
-    <div class="container container-fluid">This is a fluid container which will go till the end of the page</div>
-    <h2>centered container</h2>
-    <div class="container container-center">This is a centered conatiner which will go till the specified width</div>
-
-    <hr />
-
-    <h2>@links</h2>
-    <a href="/" class="link link-primary">primary link</a>
-    <a href="/" class="link link-secondary">secondary link</a>
-
-    <hr />
-
-    <h2>@lists</h2>
-    <h3>unordered list</h3>
-    <p>This list won't have bullet</p>
-    <ul class="list-non-bullet">
-        <li>ul one</li>
-        <li>ul two</li>
-        <li>ul three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">ul inline one</li>
-        <li class="list-item-inline">ul inline two</li>
-        <li class="list-item-inline">ul inline three</li>
-    </ul>
-
-    <h3>ordered reversed list</h3>
-    <ol reversed>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-    </ol>
-
-    <hr />
-    <h2>@nav</h2>
     <nav class="navigation container">
-        <div class="nav-brand">IAmADeveloper</div>
+        <div class="nav-brand">Minku Singh</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link link-active" href="/">Home</a>
+                <a class="link link-active" href="./index.html" title="Home">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">Projects</a>
+                <a class="link" href="./projects.html" title="Projects">Projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">Blog</a>
+                <a class="link" href="./blog.html" title="Minkuaaa blog">Blog</a>
             </li>
         </ul>
     </nav>
 
-    <hr />
-
-    <h2>@Header</h2>
     <header class="hero">
         <img class="hero-img" src="./images/hero.svg" alt="programmer" />
         <h2 class="hero-heading">I am a <span class="hero-heading-inverted">Web Developer</span> </h2>
     </header>
 
-    <hr />
-
-    <h2>@section</h2>
-    <section class="section">
-        <div class="container container-center">
-            <h1>white section</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, laudantium optio. Quibusdam ipsum dolorem, nisi consequatur qui perferendis quasi ipsa!</p>
-        </div>
-    </section>
+    <!-- technologies  -->
     <section class="section ow">
         <div class="container container-center">
-            <h1>off-white section</h1>
-            <p>this will have gray background</p>
+            <h1>My Skillsets</h1>
+            <div class="technology">
+                <img title="html" src="./images/html.png" alt="html5">
+                <img title="css" src="./images/css-3.png" alt="css3">
+                <img title="JavaScript" src="./images/js.png" alt="js">
+                <img title="ReactJS" src="./images/physics.png" alt="react-js">
+                <img title="NodeJS" src="./images/node-js.png" alt="node-js">
+            </div>
         </div>
     </section>
 
-    <hr />
+    <!-- projects  -->
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, blanditiis quod? Delectus, soluta? Quasi alias perspiciatis omnis quam quisquam repudiandae?</p>
+            <a href="./projects.html" class="link link-primary">See Projects</a>
+        </div>
+    </section>
 
-    <h2>@footer</h2>
-    <footer class="footer conatainer">
-        <div class="footer-header">small heading inside footer</div>
+    <!-- blogs  -->
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, blanditiis quod? Delectus, soluta? Quasi alias perspiciatis omnis quam quisquam repudiandae?</p>
+            <a href="./blog.html" class="link link-primary">Read Blogs</a>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <div class="footer-header">Connect with Me</div>
         <ul class="social-links list-non-bullet">
-            <li class="list-item-inline"><a class="link" href="#">social 1</a></li>
-            <li class="list-item-inline"><a class="link" href="#">social 2</a></li>
-            <li class="list-item-inline"><a class="link" href="#">social 3</a></li>
+            <li class="list-item-inline"><a title="Github" class="link" href="https://github.com/minku-singh">Github</a></li>
+            <li class="list-item-inline"><a title="LinkedIn" class="link" href="https://www.linkedin.com/in/minku-singh/">LinkedIn</a></li>
+            <li class="list-item-inline"><a title="Twitter" class="link" href="https://twitter.com/minku_singhh">Twitter</a></li>
         </ul>
     </footer>
 </body>
