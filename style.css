@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
+hr{
+    margin: 2rem 0;
+}
+
 /* container */
 .container{
     padding: 0 1rem;
