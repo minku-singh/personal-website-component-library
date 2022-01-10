@@ -121,6 +121,10 @@ hr{
     .hero .hero-img{
         width: 10rem;
     }
+
+    .footer-p{
+        font-size: small;
+    }
 }
 
 /* sections  */
