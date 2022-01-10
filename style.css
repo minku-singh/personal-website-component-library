@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #f97316;
+    --off-white: #f5f5f5;
     --zinc-gray: #27272a;
 }
 
@@ -85,4 +86,15 @@ hr{
 }
 .hero .hero-heading-inverted{
     color: var(--primary-color);
+}
+
+/* sections  */
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color: var(--off-white);
 }
