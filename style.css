@@ -49,6 +49,9 @@ hr{
     margin: auto;
 }
 
+.container p a{
+    color: var(--primary-color);
+}
 /* links */
 .link{
     text-decoration: none;
