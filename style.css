@@ -38,6 +38,9 @@ hr{
     margin-right: 1rem;
     margin-top: 1rem;
 }
+.project-container{
+    padding: 1rem;
+}
 
 /* container */
 .container{
