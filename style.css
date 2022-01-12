@@ -188,13 +188,13 @@ hr{
 @media only screen and (max-width: 600px){
     .card{
         width: 10rem;
-        min-width: 20rem;
+        min-width: 18rem;
     }
 
     .card-flex{
         display: flex;
         flex-direction: column;
         width: initial;
-        
+
     }
 }
