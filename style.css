@@ -182,7 +182,7 @@ hr{
 .card{
     width: 20rem;
     border-radius: 10px;
-    box-shadow: 3px 3px 3px var(--primary-color);
+    box-shadow: 2px 2px 8px var(--primary-color);
     margin: auto;
     min-height: 18rem;
     margin-bottom: 5rem;
