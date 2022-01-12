@@ -71,6 +71,10 @@ hr{
     border: 1px solid var(--primary-color);
     padding: 0.5rem 1rem;
 }
+.link-secondary:hover{
+    background-color: var(--primary-color);
+    color: var(--off-white);
+}
 
 /* lists */
 .list-non-bullet{
