@@ -90,7 +90,7 @@ hr{
 }
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 2rem;
     text-shadow: 2px 2px 1px var(--text-shadow);
 }
 .nav-pills{
@@ -165,4 +165,36 @@ hr{
 }
 .footer-img{
     width: 2rem;
+}
+
+/* card  */
+.card-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 60rem;
+    margin: auto;
+}
+.card{
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px var(--primary-color);
+    margin: auto;
+    min-height: 18rem;
+    margin-bottom: 5rem;
+    min-width: 25rem;
+}
+
+@media only screen and (max-width: 600px){
+    .card{
+        width: 10rem;
+        min-width: 20rem;
+    }
+
+    .card-flex{
+        display: flex;
+        flex-direction: column;
+        width: initial;
+        
+    }
 }
